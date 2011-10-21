@@ -53,7 +53,7 @@
             this.txtBBCode.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtBBCode.Size = new System.Drawing.Size(838, 218);
             this.txtBBCode.TabIndex = 0;
-            this.txtBBCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBBCode_KeyDown);
+            this.txtBBCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtBBCodeKeyDown);
             // 
             // txtHtml
             // 
@@ -64,8 +64,8 @@
             this.txtHtml.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtHtml.Size = new System.Drawing.Size(844, 264);
             this.txtHtml.TabIndex = 1;
-            this.txtHtml.TextChanged += new System.EventHandler(this.txtHtml_TextChanged);
-            this.txtHtml.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBBCode_KeyDown);
+            this.txtHtml.TextChanged += new System.EventHandler(this.TxtHtmlTextChanged);
+            this.txtHtml.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtBBCodeKeyDown);
             // 
             // groupBox1
             // 
@@ -131,7 +131,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Copiar";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1Click);
             // 
             // Form1
             // 

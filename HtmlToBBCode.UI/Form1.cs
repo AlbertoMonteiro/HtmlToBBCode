@@ -5,7 +5,7 @@ namespace HtmlToBBCode.UI
 {
     public partial class Form1 : Form
     {
-        private HtmlToBBCode htmlToBBCode;
+        private readonly HtmlToBBCode htmlToBBCode;
 
         public Form1()
         {
@@ -13,12 +13,12 @@ namespace HtmlToBBCode.UI
             htmlToBBCode = new HtmlToBBCode();
         }
 
-        private void txtHtml_TextChanged(object sender, EventArgs e)
+        private void TxtHtmlTextChanged(object sender, EventArgs e)
         {
-            txtBBCode.Text = htmlToBBCode.Convert(txtHtml.Text);
+            txtBBCode.Text = htmlToBBCode.Convert(txtHtml.Text, Environment.CurrentDirectory);
         }
 
-        private void txtBBCode_KeyDown(object sender, KeyEventArgs e)
+        private void TxtBBCodeKeyDown(object sender, KeyEventArgs e)
         {
             if (e.Control && e.KeyCode == Keys.A)
             {
@@ -27,10 +27,10 @@ namespace HtmlToBBCode.UI
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1Click(object sender, EventArgs e)
         {
             Clipboard.SetText(txtBBCode.Text);
-            MessageBox.Show("BB Code copiado com sucesso", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("BB Code copiado com sucesso", Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
