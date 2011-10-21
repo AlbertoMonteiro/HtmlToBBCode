@@ -9,6 +9,9 @@ namespace HtmlToBBCode
     {
         public string Convert(string html, string currentDirecty)
         {
+            if (string.IsNullOrEmpty(html))
+                return "";
+
             var htmlStream = new StringReader(html);
             var tempStream = new MemoryStream();
             

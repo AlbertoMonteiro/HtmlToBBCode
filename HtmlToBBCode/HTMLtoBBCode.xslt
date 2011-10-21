@@ -20,7 +20,7 @@
 	<xsl:template match='center'>[center]<xsl:apply-templates/>[/center]</xsl:template>
 	<xsl:template match='blockquote'>[quote]<xsl:apply-templates/>[/quote]</xsl:template>
 	<xsl:template match='a'>[url=<xsl:value-of select='@href'/>]<xsl:apply-templates/>[/url]</xsl:template>
-	<xsl:template match='img'>[img]<xsl:value-of select='@src'/><xsl:apply-templates/>[/img]</xsl:template>
+	<xsl:template match='img'>[center][img]<xsl:value-of select='@src'/><xsl:apply-templates/>[/img][/center]</xsl:template>
 	<xsl:template match='ul'>[ul]<xsl:apply-templates/>[/ul]</xsl:template>
 	<xsl:template match='ol'>[ol]<xsl:apply-templates/>[/ol]</xsl:template>
 	<xsl:template match='li'>[li]<xsl:apply-templates/>[/li]</xsl:template>

@@ -21,32 +21,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_13F7EF33C95C4383BFA631BB046854D3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_42B51F03AAF44CCBA01C5108495DEA6C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F716C2CD74203C3005423B0DD2DCEDCD"
+        "MsmKey" = "8:_CDEE658CDB3848F2387B96739C34E0AA"
         "OwnerKey" = "8:_027C7CC41CD94287A2E890E084AF2FA1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F716C2CD74203C3005423B0DD2DCEDCD"
+        "OwnerKey" = "8:_027C7CC41CD94287A2E890E084AF2FA1"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_027C7CC41CD94287A2E890E084AF2FA1"
+        "OwnerKey" = "8:_CDEE658CDB3848F2387B96739C34E0AA"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +61,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -83,6 +98,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -112,26 +148,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13F7EF33C95C4383BFA631BB046854D3"
-            {
-            "SourcePath" = "8:C:\\Users\\Alberto\\Desktop\\Alberto Monteiro.url"
-            "TargetName" = "8:Alberto Monteiro.url"
-            "Tag" = "8:"
-            "Folder" = "8:_0B66502CE441463BB0CC6C799F83A053"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_42B51F03AAF44CCBA01C5108495DEA6C"
             {
             "SourcePath" = "8:..\\HtmlToBBCode.UI\\html.ico"
@@ -152,14 +168,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F716C2CD74203C3005423B0DD2DCEDCD"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CDEE658CDB3848F2387B96739C34E0AA"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:HtmlToBBCode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F716C2CD74203C3005423B0DD2DCEDCD"
+                    "_CDEE658CDB3848F2387B96739C34E0AA"
                     {
                     "Name" = "8:HtmlToBBCode.dll"
                     "Attributes" = "3:512"
@@ -251,7 +267,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Convesor de Html para BB Code"
         "ProductCode" = "8:{805D6996-1BFB-4590-A290-EE2A19244739}"
-        "PackageCode" = "8:{CE845432-A0D2-4FDE-90FD-24B42A0B9D0A}"
+        "PackageCode" = "8:{C23B1D0E-213A-434E-A72C-9F93F0D5B733}"
         "UpgradeCode" = "8:{D47F5362-19F2-4B10-8D87-A4A736BBA37D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -800,7 +816,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_027C7CC41CD94287A2E890E084AF2FA1"
             {
-            "SourcePath" = "8:..\\HtmlToBBCode.UI\\obj\\x86\\Release\\HtmlToBBCode.UI.exe"
+            "SourcePath" = "8:..\\HtmlToBBCode.UI\\obj\\x86\\Debug\\HtmlToBBCode.UI.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2A8BCA536D9C4626AD74616F6E982F38"
