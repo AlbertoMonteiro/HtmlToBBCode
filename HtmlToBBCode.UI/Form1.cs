@@ -5,7 +5,7 @@ namespace HtmlToBBCode.UI
 {
     public partial class Form1 : Form
     {
-        //Funfou doido
+        //Funfou doido 2
         private readonly HtmlToBBCode htmlToBBCode;
 
         public Form1()
