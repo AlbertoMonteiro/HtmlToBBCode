@@ -11,7 +11,6 @@ namespace HtmlToBBCode
         {
             if (string.IsNullOrEmpty(html))
                 return "";//he
-
             var htmlStream = new StringReader(html);
             var tempStream = new MemoryStream();
             
