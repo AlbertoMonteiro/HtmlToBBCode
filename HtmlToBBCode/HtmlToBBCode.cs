@@ -10,7 +10,11 @@ namespace HtmlToBBCode
         public string Convert(string html, string currentDirecty)
         {
             if (string.IsNullOrEmpty(html))
+<<<<<<< HEAD
                 return "";//he
+=======
+                return "";//toma
+>>>>>>> toma
             var htmlStream = new StringReader(html);
             var tempStream = new MemoryStream();
             
