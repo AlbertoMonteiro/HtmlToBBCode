@@ -5,7 +5,7 @@ namespace HtmlToBBCode.UI
 {
     public partial class Form1 : Form
     {
-        //Testando pull rebase agora vai da certo6
+        //Testando pull rebase agora vai da certo666666666666
         private readonly HtmlToBBCode htmlToBBCode;
 
         public Form1()
